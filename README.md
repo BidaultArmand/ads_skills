@@ -1,14 +1,24 @@
-# Armand Bidault's Ads Skills for Claude Code
+> **Fork & analysis disclaimer**
+>
+> This repository is a fork of [`ivangfalco/ads-skills`](https://github.com/ivangfalco/ads-skills) by [Ivan Falco](https://www.linkedin.com/in/ivangfalco), Head of Growth at [ColdIQ](https://www.coldiq.com).
+>
+> All strategy frameworks (5-Stage Demand Engine), knowledge-base files, Python API scripts, and the $200K+/month B2B managed-spend track record referenced below are **Ivan's original work**. I forked this repo to analyze how a production-grade Claude Code skill pack is structured for paid media ops, and to test it against a real ad account.
+>
+> If you want the source of truth, go to [Ivan's repo](https://github.com/ivangfalco/ads-skills). Credit and stars belong there.
 
-**Turn Claude Code into your B2B advertising co-pilot.** 40+ strategy files, 39 API scripts, and battle-tested frameworks for LinkedIn, Meta, and Google Ads - built from managing $200K+/month in B2B ad spend across 12+ accounts.
+---
 
-Clone this repo, open Claude Code, and ask it anything about your ads. It knows the strategy, it can pull your data, and it can manage your campaigns.
+# Ads Skills for Claude Code
+
+**Turn Claude Code into your B2B advertising co-pilot.** 40+ strategy files, 39 API scripts, and battle-tested frameworks for LinkedIn, Meta, and Google Ads — built from managing $200K+/month in B2B ad spend across 12+ accounts.
+
+Clone the original repo, open Claude Code, and ask it anything about your ads. It knows the strategy, it can pull your data, and it can manage your campaigns.
 
 ## Built by
 
-**Armand Bidault** - Head of Growth and the Ads/ABM agency. Building AI-native advertising systems that make one person operate like five.
+**Ivan Falco** — Head of Growth at ColdIQ. Building AI-native advertising systems that make one person operate like five. The methodology, scripts, and frameworks in this repo are his work. Connect with him directly: [LinkedIn](https://www.linkedin.com/in/ivangfalco)
 
-If you need help with ads operations, growth operations, or scaling your B2B campaigns - DM Armand directly: [LinkedIn](https://www.linkedin.com/in/armand-bidault-jeant)
+**Forked & analyzed by** [Armand Bidault](https://www.linkedin.com/in/armand-bidault-jeant) — exploring Claude Code skill architecture for paid media ops.
 
 ---
 
@@ -17,11 +27,11 @@ If you need help with ads operations, growth operations, or scaling your B2B cam
 ### 4 Skills
 
 | Skill | Command | What it does |
-|-------|---------|-------------|
-| **LinkedIn Ads** | `/linkedin-ads` | Full campaign lifecycle - strategy, targeting, creative, analytics, bidding, demographics, audience uploads, lead forms |
-| **Meta Ads** | `/meta-ads` | Meta for B2B - creative-as-targeting, audience strategy, campaign structure, optimization, fatigue detection |
-| **Google Ads** | `/google-ads` | Intent-first search campaigns - keyword management, bid strategy, search terms auditing, performance analysis |
-| **Onboarding** | `/onboarding` | Interactive 5-minute setup - API credentials, connection testing, getting started |
+| --- | --- | --- |
+| **LinkedIn Ads** | `/linkedin-ads` | Full campaign lifecycle — strategy, targeting, creative, analytics, bidding, demographics, audience uploads, lead forms |
+| **Meta Ads** | `/meta-ads` | Meta for B2B — creative-as-targeting, audience strategy, campaign structure, optimization, fatigue detection |
+| **Google Ads** | `/google-ads` | Intent-first search campaigns — keyword management, bid strategy, search terms auditing, performance analysis |
+| **Onboarding** | `/onboarding` | Interactive 5-minute setup — API credentials, connection testing, getting started |
 
 ### 40+ Knowledge Base Files
 
@@ -65,52 +75,52 @@ If you need help with ads operations, growth operations, or scaling your B2B cam
 
 ### 39 Python Scripts
 
-**LinkedIn Ads - 14 scripts:**
-- `account_overview.py` - Account dashboard with period comparison
-- `list_campaigns.py` - All campaigns with status, budget, metrics
-- `get_campaign_performance.py` - Detailed analytics with daily breakdown
-- `create_campaign.py` - Create campaigns (5 objectives, 3 bid strategies)
-- `update_campaign.py` - Update status, budget, bids, name
-- `list_creatives.py` - All creatives with type and campaign association
-- `get_demographics.py` - 5-pivot demographics (job function, seniority, company size, industry, country)
-- `upload_audience.py` - Upload TAL/contact lists as DMP segments
-- `list_lead_forms.py` - All lead gen forms with questions
-- `manage_bids.py` - View and update bid strategy and amounts
-- `linkedin_api.py` - Core API client class
-- `oauth_server.py` - OAuth token flow
-- `config.py` / `client.py` - Shared configuration and auth
+**LinkedIn Ads — 14 scripts:**
+- `account_overview.py` — Account dashboard with period comparison
+- `list_campaigns.py` — All campaigns with status, budget, metrics
+- `get_campaign_performance.py` — Detailed analytics with daily breakdown
+- `create_campaign.py` — Create campaigns (5 objectives, 3 bid strategies)
+- `update_campaign.py` — Update status, budget, bids, name
+- `list_creatives.py` — All creatives with type and campaign association
+- `get_demographics.py` — 5-pivot demographics (job function, seniority, company size, industry, country)
+- `upload_audience.py` — Upload TAL/contact lists as DMP segments
+- `list_lead_forms.py` — All lead gen forms with questions
+- `manage_bids.py` — View and update bid strategy and amounts
+- `linkedin_api.py` — Core API client class
+- `oauth_server.py` — OAuth token flow
+- `config.py` / `client.py` — Shared configuration and auth
 
-**Meta Ads - 12 scripts:**
-- `account_overview.py` - Account dashboard with actions breakdown
-- `list_campaigns.py` - Campaigns with inline insights
-- `get_campaign_performance.py` - Analytics with daily breakdown
-- `create_campaign.py` - Create campaigns (5 objectives, special ad categories)
-- `update_campaign.py` - Update status, budget, name
-- `list_ad_sets.py` - Ad sets with targeting summary and metrics
-- `list_ads.py` - All ads with performance data
-- `get_active_ads_copy.py` - Full creative/copy extraction (link, video, carousel, dynamic)
-- `create_custom_audience.py` - Upload hashed customer lists
-- `ad_scheduler.py` - Schedule automatic ad pauses
-- `config.py` / `client.py` - Shared configuration and auth
+**Meta Ads — 12 scripts:**
+- `account_overview.py` — Account dashboard with actions breakdown
+- `list_campaigns.py` — Campaigns with inline insights
+- `get_campaign_performance.py` — Analytics with daily breakdown
+- `create_campaign.py` — Create campaigns (5 objectives, special ad categories)
+- `update_campaign.py` — Update status, budget, name
+- `list_ad_sets.py` — Ad sets with targeting summary and metrics
+- `list_ads.py` — All ads with performance data
+- `get_active_ads_copy.py` — Full creative/copy extraction (link, video, carousel, dynamic)
+- `create_custom_audience.py` — Upload hashed customer lists
+- `ad_scheduler.py` — Schedule automatic ad pauses
+- `config.py` / `client.py` — Shared configuration and auth
 
-**Google Ads - 13 scripts:**
-- `account_overview.py` - Account snapshot with period comparison
-- `list_campaigns.py` - All campaigns with metrics
-- `get_campaign_performance.py` - Detailed analytics with daily/custom ranges
-- `create_campaign.py` - Create campaigns (6 types, 5 bidding strategies)
-- `update_campaign.py` - Update status, budget, name
-- `create_ad_group.py` - Create ad groups with CPC bids
-- `create_ad.py` - Create RSAs with headline/description validation
-- `list_ads.py` - Ads with performance and approval status
-- `add_keywords.py` - Add positive/negative keywords (broad, phrase, exact)
-- `get_keyword_performance.py` - Keyword analytics with Quality Score
-- `search_terms_report.py` - Search terms audit, wasted spend finder
-- `config.py` / `client.py` - Shared configuration and auth
+**Google Ads — 13 scripts:**
+- `account_overview.py` — Account snapshot with period comparison
+- `list_campaigns.py` — All campaigns with metrics
+- `get_campaign_performance.py` — Detailed analytics with daily/custom ranges
+- `create_campaign.py` — Create campaigns (6 types, 5 bidding strategies)
+- `update_campaign.py` — Update status, budget, name
+- `create_ad_group.py` — Create ad groups with CPC bids
+- `create_ad.py` — Create RSAs with headline/description validation
+- `list_ads.py` — Ads with performance and approval status
+- `add_keywords.py` — Add positive/negative keywords (broad, phrase, exact)
+- `get_keyword_performance.py` — Keyword analytics with Quality Score
+- `search_terms_report.py` — Search terms audit, wasted spend finder
+- `config.py` / `client.py` — Shared configuration and auth
 
 ## Quick Start
 
 ```bash
-# 1. Clone this repo
+# 1. Clone the original repo (source of truth)
 git clone https://github.com/ivangfalco/ads-skills.git
 cd ads-skills
 
@@ -135,17 +145,17 @@ Or skip onboarding and just start asking:
 
 These skills turn Claude Code into a specialized advertising assistant. Each skill file teaches Claude:
 
-- **What to do** - strategy frameworks, decision trees, benchmarks
-- **How to do it** - Python scripts that connect to ad platform APIs
-- **When to reference what** - routing logic that loads the right knowledge for the task
+- **What to do** — strategy frameworks, decision trees, benchmarks
+- **How to do it** — Python scripts that connect to ad platform APIs
+- **When to reference what** — routing logic that loads the right knowledge for the task
 
-The methodology is the Armand Bidault 5-Stage Demand Engine approach - battle-tested across 12+ B2B accounts, $200K+/month in managed spend. When Claude gives you advice through these skills, it's grounded in real campaign data, not generic best practices.
+The methodology is the **Ivan Falco 5-Stage Demand Engine approach** — battle-tested across 12+ B2B accounts, $200K+/month in managed spend. When Claude gives you advice through these skills, it's grounded in real campaign data, not generic best practices.
 
 ## Repo Structure
 
 ```
 ads-skills/
-├── CLAUDE.md                           # AI context - branding, rules, architecture
+├── CLAUDE.md                           # AI context — branding, rules, architecture
 ├── .claude/
 │   └── skills/
 │       ├── onboarding/                 # Interactive setup (SKILL.md)
@@ -153,18 +163,18 @@ ads-skills/
 │       │   ├── SKILL.md                # Routing logic + methodology
 │       │   ├── api-reference.md        # LinkedIn Marketing API docs
 │       │   ├── knowledge-base/         # 15 strategy files
-│       │   └── scripts/               # 14 Python scripts
+│       │   └── scripts/                # 14 Python scripts
 │       ├── meta-ads/                   # Meta Ads skill
 │       │   ├── SKILL.md
 │       │   ├── api-reference.md
 │       │   ├── knowledge-base/         # 16 strategy files
-│       │   └── scripts/               # 12 Python scripts
+│       │   └── scripts/                # 12 Python scripts
 │       └── google-ads/                 # Google Ads skill
 │           ├── SKILL.md
 │           ├── api-reference.md
 │           ├── knowledge-base/         # 1 strategy file
-│           └── scripts/               # 13 Python scripts
-├── ads-foundations/                     # 10 cross-platform advertising frameworks
+│           └── scripts/                # 13 Python scripts
+├── ads-foundations/                    # 10 cross-platform advertising frameworks
 ├── .env.example                        # Credential template
 └── README.md                           # This file
 ```
@@ -182,8 +192,11 @@ ads-skills/
 - **Agencies** managing multiple client accounts
 - **Founders** running their own paid acquisition
 
-If you want to see what a full AI-native advertising operation looks like, check out what we're building.
-
 ---
 
-*Built by [Armand Bidault](https://www.linkedin.com/in/armand-bidault-jeant) at . These skills are provided as-is. You are responsible for your own API usage, ad spend, and platform compliance.*
+## Credit
+
+- **Original author, methodology, scripts, frameworks:** [Ivan Falco](https://www.linkedin.com/in/ivangfalco) — Head of Growth at [ColdIQ](https://www.coldiq.com). Source repo: [`ivangfalco/ads-skills`](https://github.com/ivangfalco/ads-skills)
+- **This fork (analysis & exploration):** [Armand Bidault](https://www.linkedin.com/in/armand-bidault-jeant)
+
+*These skills are provided as-is. You are responsible for your own API usage, ad spend, and platform compliance.*
