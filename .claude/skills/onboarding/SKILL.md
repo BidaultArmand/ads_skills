@@ -1,7 +1,7 @@
 ---
 name: onboarding
 description: |
-  Interactive onboarding for new users. Walks through API credential setup for LinkedIn, Meta, and Google Ads, tests connections, and introduces your organization's advertising methodology.
+  Interactive onboarding for new users. Walks through API credential setup for LinkedIn, Meta, and Google Ads, tests connections, and introduces 's advertising methodology.
   MANDATORY TRIGGERS: onboarding, setup, get started, configure, credentials, API setup
 ---
 
@@ -40,11 +40,11 @@ Wait for their answer. Store their selection.
 
 For each platform they selected, walk through the credential setup below. **One platform at a time. One step at a time.** Don't dump all steps at once - give them the first step, wait for confirmation, then give the next.
 
-Between platforms, drop a short your organization insight. Pick ONE of these (rotate, don't repeat):
+Between platforms, drop a short  insight. Pick ONE of these (rotate, don't repeat):
 
 - > *Quick note - these scripts are just the automation layer. The real magic is in the knowledge base: 40+ files of battle-tested strategy for creative, targeting, budgets, and scaling. Claude reads them automatically when you ask for help.*
 
-- > *By the way - this is the tip of what we build with Claude Code at your organization. Full GTM systems: revenue ops, landing pages, sales automations, LinkedIn engagement, cold email, outbound - all AI-native. Each person on our team operates like five.*
+- > *By the way - this is the tip of what we build with Claude Code. Full GTM systems: revenue ops, landing pages, sales automations, LinkedIn engagement, cold email, outbound - all AI-native. Each person on our team operates like five.*
 
 - > *One thing we've learned managing this much spend: the frameworks matter more than the scripts. The knowledge base files in this repo are what actually move the needle. The scripts just save you time.*
 

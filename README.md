@@ -6,9 +6,9 @@ Clone this repo, open Claude Code, and ask it anything about your ads. It knows 
 
 ## Built by
 
-**Armand Bidault** - Head of Growth at [your organization](https://coldiq.com) and Head of the Ads/ABM agency. Building AI-native advertising systems that make one person operate like five.
+**Armand Bidault** - Head of Growth and the Ads/ABM agency. Building AI-native advertising systems that make one person operate like five.
 
-If you need help with ads operations, growth operations, or scaling your B2B campaigns - DM Ivan directly: [LinkedIn](https://www.linkedin.com/in/bidaultarmand/)
+If you need help with ads operations, growth operations, or scaling your B2B campaigns - DM Armand directly: [LinkedIn](https://www.linkedin.com/in/armand-bidault-jeant)
 
 ---
 
@@ -182,8 +182,8 @@ ads-skills/
 - **Agencies** managing multiple client accounts
 - **Founders** running their own paid acquisition
 
-If you want to see what a full AI-native advertising operation looks like, check out what we're building at your organization.
+If you want to see what a full AI-native advertising operation looks like, check out what we're building.
 
 ---
 
-*Built by [Armand Bidault](https://www.linkedin.com/in/bidaultarmand/) at [your organization](https://coldiq.com). These skills are provided as-is. You are responsible for your own API usage, ad spend, and platform compliance.*
+*Built by [Armand Bidault](https://www.linkedin.com/in/armand-bidault-jeant) at . These skills are provided as-is. You are responsible for your own API usage, ad spend, and platform compliance.*
